@@ -15,63 +15,63 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="miraclePillEmoji" translatesAutoresizingMaskIntoConstraints="NO" id="if6-TL-L2a">
-                                <rect key="frame" x="247" y="42" width="105" height="101"/>
+                                <rect key="frame" x="154" y="42" width="105" height="101"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="105" id="Qm7-FA-PEy"/>
                                     <constraint firstAttribute="height" constant="101" id="iQg-Qw-aOL"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Miracle Pills" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R5j-OC-i1b" userLabel="Label: Miracle Pills">
-                                <rect key="frame" x="220" y="169" width="160" height="20"/>
+                                <rect key="frame" x="127" y="169" width="160" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="160" id="6FK-6A-EL3"/>
                                     <constraint firstAttribute="height" constant="20" id="TNa-NS-bI4"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$149" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i5F-qa-6yv" userLabel="Label: $149">
-                                <rect key="frame" x="272" y="192" width="55" height="20"/>
+                                <rect key="frame" x="179" y="192" width="55" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="2WW-1j-2Bu"/>
                                     <constraint firstAttribute="width" constant="55" id="6Jf-5y-EjZ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FULL NAME:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYj-9t-zaL">
-                                <rect key="frame" x="40" y="229" width="520" height="20"/>
+                                <rect key="frame" x="40" y="229" width="334" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="fYR-Dq-kBo"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="15"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STATE:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mca-zD-gKe">
-                                <rect key="frame" x="40" y="427" width="520" height="20"/>
+                                <rect key="frame" x="40" y="427" width="334" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="bWB-8e-rtf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="15"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view alpha="0.34999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dXx-u2-fnu" userLabel="View: Divider">
-                                <rect key="frame" x="40" y="220" width="520" height="1"/>
+                                <rect key="frame" x="40" y="220" width="334" height="1"/>
                                 <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="ih2-Dn-W5m"/>
                                 </constraints>
                             </view>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your name...." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pwr-dv-ZtU">
-                                <rect key="frame" x="40" y="257" width="520" height="30"/>
+                                <rect key="frame" x="40" y="257" width="334" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="mQL-do-H8T"/>
                                 </constraints>
@@ -79,16 +79,16 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STREET ADDRESS:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lix-lf-Y9k">
-                                <rect key="frame" x="40" y="295" width="520" height="20"/>
+                                <rect key="frame" x="40" y="295" width="334" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="ogo-7H-Q7a"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="15"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your adress...." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jkK-ln-HJR">
-                                <rect key="frame" x="40" y="323" width="520" height="30"/>
+                                <rect key="frame" x="40" y="323" width="334" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="7Sr-f2-qYK"/>
                                 </constraints>
@@ -96,16 +96,16 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CITY:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yyA-eM-0Wn">
-                                <rect key="frame" x="40" y="361" width="520" height="20"/>
+                                <rect key="frame" x="40" y="361" width="334" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="zMM-Vj-tKO"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="15"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your city...." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gcA-T0-TwP">
-                                <rect key="frame" x="40" y="389" width="520" height="30"/>
+                                <rect key="frame" x="40" y="389" width="334" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="MMb-yi-v3K"/>
                                 </constraints>
@@ -125,7 +125,7 @@
                                 </connections>
                             </button>
                             <pickerView hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LaE-3K-7LD">
-                                <rect key="frame" x="178" y="467" width="244" height="55"/>
+                                <rect key="frame" x="85" y="467" width="244" height="55"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="244" id="I2g-T7-BID"/>
                                     <constraint firstAttribute="height" constant="55" id="haz-RL-h8B"/>
@@ -172,6 +172,7 @@
                             <constraint firstItem="if6-TL-L2a" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="22" id="xdv-uP-i3K"/>
                         </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="statePicker" destination="LaE-3K-7LD" id="Hmt-5r-Azn"/>
                         <outlet property="statePickerButton" destination="vY7-hn-E2b" id="YI3-bm-arj"/>
